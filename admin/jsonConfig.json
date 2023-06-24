@@ -1,0 +1,16 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"Aktuelle Leistung": {
+			"type": "number",
+			"label": "power_now",
+			"newLine": true
+		},
+		"Gesamte Leistung": {
+			"type": "number",
+			"label": "power_total",
+			"newLine": true
+		}
+	}
+}

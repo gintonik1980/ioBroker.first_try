@@ -1,0 +1,51 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "first_try",
+	"title": "Ausprobieren",
+	"description": "super",
+	"keywords": "",
+	"contributors": "",
+	"authorName": "gintonik1980",
+	"authorGithub": "gintonik1980",
+	"authorEmail": "marcel.bayard@t-online.de",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "energy",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "Aktuelle Leistung",
+			"label": "power_now",
+			"inputType": "number",
+			"defaultValue": 0
+		},
+		{
+			"key": "Gesamte Leistung",
+			"label": "power_total",
+			"inputType": "number",
+			"defaultValue": 0
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
